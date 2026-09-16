@@ -1,0 +1,25 @@
+# Core
+numpy
+pandas
+scikit-learn
+
+# Stream 3 - Clinical Risk Model
+xgboost
+lightgbm
+
+# Stream 1 - Deep Image Model
+torch
+torchvision
+timm          # provides ConvNeXt-Tiny pretrained weights
+opencv-python
+Pillow
+nnunetv2      # abdomen segmentation (Stream 1)
+
+# Layer 5 - Explainable AI
+shap
+grad-cam      # pytorch-grad-cam package
+
+# Utilities
+matplotlib
+seaborn
+tqdm
