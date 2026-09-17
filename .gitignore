@@ -1,6 +1,7 @@
 # Ignore all dataset files
 data/
 
+
 # Ignore all CSV files
 *.csv
 
