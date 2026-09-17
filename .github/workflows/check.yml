@@ -1,0 +1,15 @@
+name: Basic Python Check
+
+on: [push]
+
+jobs:
+  syntax-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check Python files compile without syntax errors
+        run: |
+          find src -name "*.py" -exec python -m py_compile {} \;
