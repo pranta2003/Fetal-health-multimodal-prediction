@@ -1,4 +1,8 @@
-data/raw/
-data/processed/
+# Ignore all dataset files
+data/
+
+# Ignore all CSV files
 *.csv
+
+# Ignore JSON model files
 models/*.json
