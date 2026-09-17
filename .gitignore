@@ -1,1 +1,4 @@
-data/
+data/raw/
+data/processed/
+*.csv
+models/*.json
