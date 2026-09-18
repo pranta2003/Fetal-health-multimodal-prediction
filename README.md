@@ -18,7 +18,7 @@ notebooks/         <- exploratory Kaggle/Colab notebooks
 models/            <- saved trained model weights (not committed to git)
 ```
 
-## Build order (do not skip ahead)
+## Build order
 
 1. Stream 3 (Clinical Risk Model) - CDC tabular data, XGBoost. **STATUS: pipeline scaffolded and verified working on synthetic data.**
 2. Layer 3 (Hadlock formula + growth percentile) - pure calculation, no training.
